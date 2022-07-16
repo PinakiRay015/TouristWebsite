@@ -1,0 +1,74 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+  }
+  
+  .heading h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f1f2f6;
+    font-size: 40px;
+  }
+  
+  .heading span {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cce3de;
+  }
+  
+  .gallery {
+    display: flex;
+    padding: 2px;
+    transition: 0.3s;
+  }
+  
+  .gallery:hover .gallery__image {
+    filter: grayscale(1);
+  }
+  
+  .gallery__column {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+  
+  .gallery__link {
+    margin: 2px;
+    overflow: hidden;
+  }
+  
+  .gallery__link:hover .gallery__image {
+    filter: grayscale(0);
+  }
+  
+  .gallery__link:hover .gallery__caption {
+    opacity: 1;
+  }
+  
+  .gallery__thumb {
+    position: relative;
+    margin: 3px 3px;
+  }
+  
+  .gallery__image {
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+  }
+  
+  .gallery__image:hover {
+    transform: scale(1.1);
+  }
+  
+  .gallery__caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px 15px 15px;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: white;
+    opacity: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    transition: 0.3s;
+  }
