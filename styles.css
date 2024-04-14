@@ -15,7 +15,8 @@ body
     'b7 b7 b7 b7 b7 b7'
     'b8 b8 b8 b8 b8 b8'
     'b9 b9 b9 b9 b9 b9'
-    'b10 b10 b10 b10 b10 b10';
+    'b10 b10 b10 b10 b10 b10'
+    'b11 b11 b11 b11 b11 b11';
 }
 
 .base
@@ -57,36 +58,6 @@ body
 #base3
 {
     grid-area: b3;
-}
-
-#base4
-{
-    grid-area: b4;
-    height: 900px;
-    background-image: url(img/amarnath1.jpg);
-    background-size: cover;
-    background-position: center;
-    animation-name: amarnath;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;   
-}
-
-@keyframes amarnath
-{
-    30%
-    {
-        background-image: url(img/amarnath1.jpg);
-    }
-
-    60%
-    {
-        background-image: url(img/amarnath2.jpg);
-    }
-
-    90%
-    {
-        background-image: url(img/amarnath3.jpg);
-    }
 }
 
 #base5
@@ -145,6 +116,7 @@ body
     margin: 10px 10px;
     border: none;
     border-radius: 10px;
+    position: relative;
 }
 
 #base6 .activities
@@ -225,6 +197,23 @@ body
 	
 	width: 12px;
 	height: 0;
+}
+
+#base6 #detail
+{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+}
+
+#base6 #tagsec
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
 
@@ -544,4 +533,16 @@ body
 #base10 .newbox h2
 {
     text-decoration: underline;
+}
+
+#base11
+{
+    grid-area: b11;
+}
+
+#ft
+{
+    background-color: #001d3d;
+    text-align: center;
+    font-size: 22px;
 }
