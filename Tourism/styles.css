@@ -1,0 +1,548 @@
+body
+{
+    overflow-x: hidden;
+}
+
+.database
+{
+    display: grid;
+    grid-template-areas: 'b1 b1 b1 b1 b1 b1'
+    'b2 b2 b2 b2 b2 b2'
+    'b3 b3 b3 b3 b3 b3'
+    'b4 b4 b4 b4 b4 b4'
+    'b5 b5 b5 b5 b5 b5'
+    'b6 b6 b6 b6 b6 b6'
+    'b7 b7 b7 b7 b7 b7'
+    'b8 b8 b8 b8 b8 b8'
+    'b9 b9 b9 b9 b9 b9'
+    'b10 b10 b10 b10 b10 b10'
+    'b11 b11 b11 b11 b11 b11';
+}
+
+.base
+{
+    background-color: #161a1d;
+    color: white;
+}
+
+#base1
+{
+    grid-area: b1;
+}
+
+#base1 img
+{
+    width: 120px;
+}
+
+#base1 i
+{
+    padding: 3px;
+}
+
+#base2
+{
+    grid-area: b2;
+}
+
+#base2 h5
+{
+    font-size: 70px;
+}
+
+#base2 p
+{
+    font-size: 30px;
+}
+
+#base3
+{
+    grid-area: b3;
+}
+
+#base5
+{
+    grid-area: b5;
+}
+
+#base5 .card
+{
+ background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+#base5 h5
+{ 
+  color: #003153;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+}
+
+#base5 p
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: #367588;
+}
+
+#base6
+{
+    grid-area: b6;
+    color: black;
+}
+
+#base6 #intro
+{
+    color: white;
+    text-align: center;
+}
+
+#base6 img
+{
+    border-radius: 10px;
+}
+
+#base6 p
+{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    top: -70px;
+    border-radius: 15px;
+}
+
+#base6 .card
+{
+    margin: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+
+#base6 .activities
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#base6 .ratings i
+{
+    color: #f48c06;
+}
+
+#base6 .tag {
+	min-width: 70px;
+	height: 24px;
+	background: #f1d17a;
+	position: relative;
+    top: 10px;
+	float:right;
+	padding-right:10px;
+	box-shadow: inset 0px 3px 17px 0px #eeb211;
+	
+}
+ 
+#base6 #tag1 a
+{
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+#base6 #tag2
+{
+    margin: 10px 0px;
+}
+
+#base6 .tag a{
+	color:#274152;
+	font-weight:900;
+	text-decoration: none;
+	float:right;
+  padding-top:3px;
+}
+
+#base6 .tag a:after{
+	content: "";
+	position: absolute;
+	top: 7px;
+	left: 5px;
+	background: #fff;
+	border: 1px solid #eeb211;
+	border-radius: 100%;
+	width: 6px;
+	height: 6px;
+
+}
+
+#base6 .tag:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 7px solid #EEC24B;
+	border-left: 7px solid #fff;
+	
+	width: 12px;
+	height: 0;
+}
+
+#base6 .tag:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top: 7px solid #EECB6D;
+	border-left: 7px solid #fff;
+	
+	width: 12px;
+	height: 0;
+}
+
+#base6 #detail
+{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+}
+
+#base6 #tagsec
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+
+#base7
+{
+    grid-area: b7;
+    color: black;
+}
+
+
+
+#base7 .card
+{
+  margin: 20px;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#base7 h2
+{
+  text-align: center;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#base7 img
+{
+  border-radius: 15px;
+}
+
+#base8
+{
+    grid-area: b8;
+}
+
+#base9
+{
+    grid-area: b9;
+}
+
+#base9
+{
+    margin: 12px 12px;
+    box-shadow: 3px 3px 10px 2px black;
+    border-radius: 15px;
+    background-color: #edf2fb;
+}
+
+.section
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#sec1 h2
+{
+    margin: 20px;
+    font-size: 40px;
+    color: #5a189a;
+}
+
+#sec1 p
+{
+    margin-left: 40px;
+    font-size: 20px;
+    color: #9d4edd;
+
+}
+
+#sec1 h3
+{
+    margin-left: 40px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7b2cbf;
+}
+
+#sec1 form 
+{
+    margin: 12px 12px;
+    padding: 4px;
+    font-family: cursive;
+    color: #7b2cbf;
+    font-weight: bold;
+}
+
+#sec1 input
+{
+    margin: 10px;
+    padding: 5px;
+    width:60%;
+    height: 40px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 4px solid #489fb5;
+    border-left: 4px solid #489fb5;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 2px 7px black;
+}
+
+#sec1 input:focus
+{
+    border-bottom: 4px solid #124559;
+    border-left: 4px solid #124559;
+    box-shadow: 2px 2px 10px black;
+    transition: 0.4s;
+}
+
+
+
+#sec1 fieldset
+{
+    width: 600px;
+}
+
+#sec1 textarea
+{
+    width: 600px;
+}
+
+#sec1 button
+{
+    margin: 12px 12px;
+    width: 200px;
+    height: 40px;
+    color: black;
+    background-color: #83c5be;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 12px;
+    
+}
+
+#sec1 button:hover
+{
+    color: white;
+    background-color: #006d77;
+    transition: 0.4s;
+}
+
+
+#base10
+{
+    grid-area: b10;
+    background-color: #cce3de;
+    background-image: url(img/footer.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.audio
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+}
+
+.audio p
+{
+  color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#base10 .icons
+{
+    margin-right: 45px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+#base10 i
+{
+    font-size: 20px;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+#base10 #facebook
+{
+    color: #023e8a;
+    border: 1px solid #023e8a;
+}
+
+#base10 #facebook:hover
+{
+    color: white;
+    background-color: #023e8a;
+    transition: 0.3s;
+}
+
+
+#base10 #linkedin
+{
+    color: #007ea7;
+    border: 1px solid #007ea7;
+}
+
+#base10 #linkedin:hover
+{
+    color: white;
+    background-color: #007ea7;
+    transition: 0.3s;
+}
+
+
+#base10 #instagram
+{
+    color: #fc2f00;
+    border: 1px solid  #fc2f00;
+}
+
+#base10 #instagram:hover
+{
+    color: white;
+    background-color: #fc2f00 ;
+    transition: 0.3s;
+}
+
+
+#base10 #twitter
+{
+    color: #4cc9f0;
+    border: 1px solid #4cc9f0;
+}
+
+#base10 #twitter:hover
+{
+    color: black;
+    background-color: #4cc9f0 ;
+    transition: 0.3s;
+}
+
+#base10 #youtube
+{
+    color: red;
+    border: 1px solid red;
+}
+
+#base10 #youtube:hover
+{
+    color: white;
+    background-color: red;
+}
+
+#base10 #pinterest
+{
+    color: #941b0c;
+    border: 1px solid #941b0c;
+}
+
+#base10 #pinterest:hover
+{
+    color: white;
+    background-color: #941b0c;
+    transition: 0.3s;
+}
+
+#base10 img
+{
+    position: relative;
+    top: -50px;
+    left: 15px;
+    height: 192px;
+    width: 359px;
+}
+
+#base10 h1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#base10 .footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#base10 .newbox
+{
+    display: flex;
+    color: white;
+}
+
+#base10 .newbox li
+{
+    cursor: pointer;
+    color: #f1faee;
+}
+
+#base10 .newbox li:hover
+{
+    cursor: pointer;
+    color: #ffba08;
+    transition: 0.3s;
+}
+
+#base10 .newbox h2
+{
+    text-decoration: underline;
+}
+
+#base11
+{
+    grid-area: b11;
+}
+
+#ft
+{
+    background-color: #001d3d;
+    text-align: center;
+    font-size: 22px;
+}
